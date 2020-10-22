@@ -1,0 +1,200 @@
+<html>
+
+    <head>
+        <title> Pedro, Roop, Colin, Manuel, Arul | Home </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+
+    <body>
+
+        <div class="container-fluid">
+
+            <div class="row justify-content-end" style="padding-top: 2%; padding-bottom: 2%; padding: 2%;">
+
+                <div class="col-2" style="text-align: right;">
+                    <!--
+                    <a href="github" target="_blank"><i class="fa fa-github"></i></a>
+                    <a href="linkedin" target="_blank"><i class="fa fa-linkedin" ></i></a>
+                    <a href="https://youtube.com/channel/UCiUOsPkjUdlxywd-E7GTicw" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                    <a href="twitter" target="_blank"><i class="fa fa-twitter"></i></a>   
+                    -->
+                    <h5>Pedro, Roop, Colin, Manuel, Arul</h5>
+                    
+                </div>
+
+            </div>
+
+
+            <!--
+            <div class="row justify-content-center">
+
+                <h1>Portfolio</h1>
+
+            </div>
+            -->
+
+            <div class="product" style="margin-top: 2%;">
+              <div class="row" style="padding: 10%; padding-top: 0%; padding-bottom: 5%;">
+
+                  <div class="col-8" >
+                      <h1>Tri 1 Projects</h1>
+                  </div>
+
+              </div>
+
+              <div class="row" style="padding-left: 10%;">
+                  <div class="col-4">
+                      <a href="https://docs.google.com/document/d/16C-jplZo7MnuTXzWabPOHMUYzwajv9OjvTR47Zf347o/edit" class="btn">Website Project Plan and Project Concept</a>
+                  </div>
+
+                 
+                  <div class="col-4">
+                      <a href="https://repl.it/@Pedrode16/HTML-Project#README.md" class="btn">Project Page flask & Repl</a>
+                  </div>
+
+                   <div class="col-4">
+                      <a href="https://repl.it/@JSinghSD/CS-P-Tic-Tac-Toe-Groop#README.md" class="btn">Tic tac Toe Code</a>
+                  </div>
+                   <!--
+                   <div class="col-4"
+                    <a href="https://www.youtube.com/watch?v=zX_QF9Uki1I"
+                    class="btn">Vasco</a>
+                  </div>
+                   -->
+              </div>
+
+            </div>
+
+
+            <div class="product" style="margin-top: 5%;">
+              <div class="row" style="padding: 10%; padding-top: 5%; padding-bottom: 5%;">
+
+                  <div class="col-8" >
+                      <h1>Journals</h1>
+                  </div>
+
+              </div>
+
+              <div class="row" style="padding-left: 10%;">
+                  <div class="col-4">
+                      <a href="https://padlet.com/jagroopvij/ak7qrz26swtqtjvr" class="btn">Roop & Pedro</a>
+                  </div>
+
+                  <div class="col-4">
+                      <a href="https://docs.google.com/document/d/1jXz_337c_SxNpBdbq_sJqn-UL3obRfpze8vQySEYJm4/edit?usp=sharing" class="btn">Arul, Colin, Manuel</a>
+                  </div>
+
+                  <div class="col-4">
+                      <a href="#" class="btn">Coding Society</a>
+                  </div>
+
+              </div>
+
+            </div>
+
+
+        </div>
+
+    </body>  
+    <!--
+    <script src="https://threejs.org/build/three.js"></script>
+    <script src="{{ url_for('static', filename='vanta.globe.min.js') }}"></script>
+    <script>
+    VANTA.GLOBE({
+      el: "body",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00
+    })
+    </script>
+    -->
+    <script src="https://threejs.org/build/three.js"></script>
+    <script src="{{ url_for('static', filename='vanta.globe.min.js') }}"></script>
+    <script>
+    VANTA.GLOBE({
+      el: "body",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x154c59,
+      size: 2.00,
+      backgroundColor: 0x0
+})
+</script>
+
+    
+    
+
+    <style>
+        html, body {
+            margin: 0;
+            height: 100%;
+            color: white;
+        }
+
+        h1{
+            font-size: 5em;
+        }
+
+
+        .fa{
+            font-size: 3em;
+            letter-spacing: 1em;
+            transition: all .2s;
+            color: white;
+        }
+
+        .fa:hover{
+            transform: translateY(10px);
+        }
+
+        .fa-youtube-play:hover{
+            color: #cc0000;
+        }
+
+        .fa-twitter:hover{
+            color: #1da1f2;
+        }
+
+        .fa-github:hover{
+            color: #000000;
+        }
+
+
+        .btn:link,
+        .btn:visited {
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 15px 40px;
+            display: inline-block;
+            border-radius: 100px;
+            transition: all .2s;
+            position: absolute;
+            color: white;
+            font-size: 2.5em;
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 20px 40px rgba(255, 255, 255, 0.2);
+        }
+
+        .btn:active {
+            transform: translateY(-1px);
+            box-shadow: 0 5px 10px rgba(255, 255, 255, 0.2);
+        }
+
+        
+    </style>
+
+</html>
