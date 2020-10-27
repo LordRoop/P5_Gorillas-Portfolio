@@ -1,4 +1,5 @@
 # Individual Code for Week 7
+* This week we fully incorporated the Raspberry Pi, we updated our README.md, we learned the ins and outs of "Repl.it to IntelliJ process" and one of outr group members even made a video for the class explaining how to port their project to IntelliJ easily.
 * We did not really work on code this week
 * Instead we focused on our README.md, porting the Repl.it to the IntelliJ, and incorporating the Raspberry Pi into our project
 * Next week we plan to improve our code
