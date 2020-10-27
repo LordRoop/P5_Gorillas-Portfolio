@@ -12,7 +12,7 @@ Hello, World! This is our website, which consists of a project link to our previ
 
 #The Future
 * This next week we plan on increasing the functionality of our website
-We plan on making a menu tab in which the user can easily navigate the website
+* We plan on making a menu tab in which the user can easily navigate the website
 
 # Authors
 * Arul, Colin, Manuel, Pedro, Roop
