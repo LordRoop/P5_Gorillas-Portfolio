@@ -10,7 +10,8 @@ Hello, World! This is our website, which consists of a project link to our previ
 * We also worked on making the website easily accessible for those outside the host's residence by opening a port of entrance on our router.
 * We did not work on code as much this week, since we wanted to have our website up and  running reliably before we started doing anything related to the main coding of the website
 
-#The Future
+
+# The Future
 * This next week we plan on increasing the functionality of our website
 * We plan on making a menu tab in which the user can easily navigate the website
 
