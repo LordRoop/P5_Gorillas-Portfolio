@@ -6,11 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     #Flask import uses Jinga to render HTML
-    return render_template("projects.html")
-
-@app.route('/proj')
-def projects():
-    return render_template("projects.html")
+    return render_template("test.html")
 
 
 if __name__ == "__main__":
