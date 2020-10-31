@@ -18,6 +18,11 @@ def journals():
     #Flask import uses Jinga to render HTML
     return render_template("journals.html")
 
+@app.route('/pedro')
+def pedro():
+    #Flask import uses Jinga to render HTML
+    return render_template("pedro.html")
+
 if __name__ == "__main__":
     #runs the application on the repl development server
     app.run(debug=True, port=' 5000', host='192.168.86.51')
