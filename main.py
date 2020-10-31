@@ -8,7 +8,7 @@ def home():
     #Flask import uses Jinga to render HTML
     return render_template("home.html")
 
-@app.route('/projects.html')
+@app.route('/proj')
 def projects():
     return render_template("projects.html")
 
