@@ -93,21 +93,20 @@
 
 
     <script src="{{ url_for('static', filename='three.r119.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='vanta.dots.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vanta.fog.min.js') }}"></script>
 
     <script>
-    VANTA.DOTS({
+    VANTA.FOG({
       el: "body",
       mouseControls: true,
       touchControls: true,
       gyroControls: false,
       minHeight: 200.00,
       minWidth: 200.00,
-      scale: 1.00,
-      scaleMobile: 1.00,
-      color: 0x154c59,
-      size: 2.00,
-      backgroundColor: 0x0
+      highlightColor: 0x0,
+      midtoneColor: 0x91322,
+      lowlightColor: 0xc072d,
+      baseColor: 0x120d34
     })
     </script>
 
