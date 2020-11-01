@@ -1,7 +1,7 @@
 # The Groop READ.ME file
 
 # Website
-Hello, World! This is our website, which consists of a project link to our previous project of 3x3 and 4x4 Tic Tac Toe, the CSP class resources (Nighthawk Coding Society Padlet), and our project plan.  
+Hello, World! This is our website, which consists of a project link to our previous project of 3x3 and 4x4 Tic Tac Toe on Repl.it, the CSP class resources (Nighthawk Coding Society Padlet), individual repositories, project plan, and pair and trio journals.  
 
 # Purpose
 * Make our projects and resources accesible to other students and teachers.
