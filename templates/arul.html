@@ -94,23 +94,20 @@
 </body>
 
 
-<script src="{{ url_for('static', filename='p5.min.js') }}"></script>
-<script src="{{ url_for('static', filename='vanta.rings.min.js') }}"></script>
-
+<script src="three.r119.min.js"></script>
+<script src="vanta.rings.min.js"></script>
 <script>
-    VANTA.RINGS({
-      el: "body",
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      scaleMobile: 1.00,
-      color: 0x210a70,
-      backgroundColor: 0x20209
-    })
-    </script>
+VANTA.RINGS({
+  el: "#your-element-selector",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00
+})
+</script>
 
 <style>
     html, body {
