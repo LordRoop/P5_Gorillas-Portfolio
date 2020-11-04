@@ -98,11 +98,11 @@
 </body>
 
 
-    <script src="{{ url_for('static', filename='three.r119.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='vanta.cells.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='p5.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vanta.topology.min.js') }}"></script>
 
     <script>
-    VANTA.CELLS({
+    VANTA.TOPOLOGY({
       el: "body",
       mouseControls: true,
       touchControls: true,
@@ -110,10 +110,9 @@
       minHeight: 10000.00,
       minWidth: 200.00,
       scale: 1.00,
-      color1: 0x111984,
-      color2: 0xa4314,
-      size: 1.00,
-      speed: 2.10
+      scaleMobile: 1.00,
+      color: 0x7171ff,
+      backgroundColor: 0xa0a52
     })
     </script>
 
