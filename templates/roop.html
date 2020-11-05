@@ -94,22 +94,24 @@
 
 </body>
 
-<script src="three.r119.min.js"></script>
-<script src="vanta.waves.min.js"></script>
+<script src="{{ url_for('static', filename='three.r119.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vanta.dots.min.js') }}"></script>
+
 <script>
-VANTA.WAVES({
+VANTA.DOTS({
   el: "body",
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
+  minHeight: 2000.00,
+  minWidth: 2000.00,
   scale: 1.00,
   scaleMobile: 1.00,
-  color: 0x11
+  color: 0xa320ff,
+  color2: 0x6070c0,
+  backgroundColor: 0x1e
 })
 </script>
-
 
 <style>
     html, body {
