@@ -26,7 +26,9 @@ Hello, World! This is our website, which consists of a project link to our previ
   </tr>
   <tr>
     <td>Colin</td>
-    <td>goals</td>
+    <td><p>Make website more user friendly</p></td>
+    <p>Add and customize embeds</p>
+    <p>Add commits and Github account</p>
   </tr>
   <tr>
       <td>Manuel</td>
