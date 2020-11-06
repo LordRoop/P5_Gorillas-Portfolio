@@ -32,7 +32,12 @@ Hello, World! This is our website, which consists of a project link to our previ
   </tr>
   <tr>
       <td>Manuel</td>
-      <td>goals</td>
+      <td><p>My goals was to help my team members with the website menu to make it easier to navigate for the user</p>
+          <p>Learn more about HTML on my own time</p>
+          <p>Port our playground to intelij and maybe add more things to it that we have learned since we last updated it</p>
+          <p>Help our group import our tic tac toe game from repl.it to intelliJ</p>
+          <p>Help others with their goals</p>
+          ---------------------------------------------------
   </tr>
   <tr>
       <td>Pedro</td>
