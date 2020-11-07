@@ -1,3 +1,5 @@
+import time
+
 class Project():
     #project data with name and links
     def __init__(self, name, links):
@@ -54,3 +56,11 @@ def setup():
     #HTML Data
     projects = Projects(source, [proj1, proj2])
     return projects
+
+def runtime():
+    greeting = "Hello! Welcome to the Gorillas Website<br>In this website, find the repositories for all our projects; our journals, where we document coding progress; and Individual pages.<br>Individual pages have personal information and our coding experiences.<br>Explore!!"
+    doa = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+    job = "Runtime Link"
+    embed = "https://Python-Web-Portfolio-Series.jmort1021.repl.co"
+    info = {"greeting": greeting, "doa": doa, "job": job, "embed": embed}
+    return info
