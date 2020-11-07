@@ -58,7 +58,7 @@ def setup():
     return projects
 
 def runtime():
-    greeting = "Hello! Welcome to the Gorillas Website<br>In this website, find the repositories for all our projects; our journals, where we document coding progress; and Individual pages.<br>Individual pages have personal information and our coding experiences.<br>Explore!!"
+    greeting = "In this website, find the repositories for all our projects; our journals, where we document coding progress; and Individual pages.<br>Individual pages have personal information and our coding experiences.<br>Explore!!"
     doa = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     job = "Runtime Link"
     embed = "https://Python-Web-Portfolio-Series.jmort1021.repl.co"
