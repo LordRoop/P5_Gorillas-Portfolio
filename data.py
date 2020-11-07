@@ -59,8 +59,9 @@ def setup():
 
 def runtime():
     greeting = "In this website, find the repositories for all our projects; our journals, where we document coding progress; and Individual pages.\nIndividual pages have personal information and our coding experiences.\nExplore!!"
-    doa = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+    doa = time.strftime("%Y-%m-%d %H:%M", time.localtime())
+    doah = int(time.strftime("%H", time.localtime()))
     job = "Runtime Link"
     embed = "https://Python-Web-Portfolio-Series.jmort1021.repl.co"
-    info = {"greeting": greeting, "doa": doa, "job": job, "embed": embed}
+    info = {"greeting": greeting, "doa": doa, "doah": doah, "job": job, "embed": embed}
     return info
