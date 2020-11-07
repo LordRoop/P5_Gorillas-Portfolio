@@ -1,3 +1,4 @@
+import data
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -5,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return render_template("home.html")
+    return render_template("home.html", projects=data.setup())
 
 
 @app.route('/projects')
@@ -41,7 +42,6 @@ def manuel():
 @app.route('/colin')
 def colin():
     return render_template("colin.html")
-
 
 if __name__ == "__main__":
     app.run(debug=True, port=' 5000', host='192.168.86.51')
