@@ -101,11 +101,15 @@
             </div>
 
             <div class="row justify-content-center" style="padding-top: 5%; padding-bottom: 5%; text-align: center;">
-                <h6>Hello! Welcome to the {{name}} Website</h6>
-                <h6>{{greeting}}<br></h6>
-                <h6>The time is {{doa}} now</h6>
+                <h3>Hello! Welcome to the {{name}} Website</h3>
+            </div>
+            <div class="row justify-content-center" style="padding-top: 5%; padding-bottom: 5%; text-align: center;">
+                <h3>{{greeting}}<br></h3>
+            </div>
+            <div class="row justify-content-center" style="padding-top: 5%; padding-bottom: 5%; text-align: center;">
+                <h3>The time is {{doa}} now</h3>
                 {% if doah>18 or doah<5 %}
-                <h6>It's late and the Gorillas are away. zzzzzzzzzz.....</h6>
+                <h3>It's late and the Gorillas are away. zzzzzzzzzz.....</h3>
                 {% endif %}
             </div>
 
@@ -151,7 +155,7 @@
 
         }
 
-        h6{
+        h3{
             text-align: center;
             font-size: 2em;
             font-family: "Lucida Console", Courier, monospace;
