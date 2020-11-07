@@ -58,7 +58,7 @@ def setup():
     return projects
 
 def runtime():
-    greeting = "In this website, find the repositories for all our projects; our journals, where we document coding progress; and Individual pages.\nIndividual pages have personal information and our coding experiences.\nExplore!!"
+    greeting = "Here you find the repositories for all our projects; our journals, where we document coding progress; and Individual pages with personal information and our coding experiences. Explore!!"
     doa = time.strftime("%Y-%m-%d %H:%M", time.localtime())
     doah = int(time.strftime("%H", time.localtime()))
     job = "Runtime Link"
