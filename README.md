@@ -7,6 +7,7 @@ Hello, World! This is our website, which consists of a project link to our previ
 * A major problem of our project on IntelliJ is firstly only accessible via our own machine
 * It is not very trustworthy to have it running locally
 * It is better to not worry about having IntelliJ open and running on our laptop or pc all the time
+* The only pro is that it is easier to see your changes take effect quickly when you are hosting locally, all it takes is three clicks!
 That is why it was a great investment for our group to buy a Raspberry Pi early on and host our website with it.
 Now we do not have to worry about having our laptop on all the time, we can just boot our Pi and run it in seconds
 
