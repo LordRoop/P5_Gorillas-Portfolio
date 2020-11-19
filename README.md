@@ -1,7 +1,14 @@
 # The Groop READ.ME file
 
 # Website
-Hello, World! This is our website, which consists of a project link to our previous project of 3x3 and 4x4 Tic Tac Toe on Repl.it, the CSP class resources (Nighthawk Coding Society Padlet), individual repositories, project plan, and pair and trio journals.  
+Hello, World! This is our website, which consists of a project link to our previous project of 3x3 and 4x4 Tic Tac Toe on Repl.it, the CSP class resources (Nighthawk Coding Society Padlet), individual repositories, project plan, and pair and trio journals. 
+
+# IntelliJ Hosting?
+* A major problem of our project on IntelliJ is firstly only accessible via our own machine
+* It is not very trustworthy to have it running locally
+* It is better to not worry about having IntelliJ open and running on our laptop or pc all the time
+That is why it was a great investment for our group to buy a Raspberry Pi early on and host our website with it.
+Now we do not have to worry about having our laptop on all the time, we can just boot our Pi and run it in seconds
 
 # Purpose
 * Make our projects and resources accessible to other students and teachers.
